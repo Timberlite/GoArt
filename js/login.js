@@ -1,7 +1,7 @@
 var fs = require('fs');
 var qs = require('qs');
 var param = qs.parse(fs.readFileSync('/dev/stdin','utf-8'));
-var content = fs.readFileSync(‘../db/user.json');
+var content = fs.readFileSync('../db/user.json');
 var obj = JSON.parse(content);
 var flag=1;
 
